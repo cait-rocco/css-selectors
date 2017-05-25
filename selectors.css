@@ -1,0 +1,32 @@
+header {
+	border: 5px solid lavender;
+}
+
+#navBar li{
+	display: inline;
+	margin: 10px;
+}
+
+.disabled {
+	color: grey;
+}
+
+a.disabled {
+	color: purple;
+}
+
+.active {
+	color: yellow;
+}
+
+.parent div > div:first-child {
+	color: red;
+}
+
+.parent div > div:nth-child(3) {
+	color: blue;
+}
+
+.parent h4:first-of-typ + h4 {
+	background-color: red;
+}
